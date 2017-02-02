@@ -108,7 +108,7 @@ function nm_underscores_dev_scripts() {
 
 	wp_enqueue_style( 'nm_underscores_dev-style', get_stylesheet_uri() );
 
-	// Add Google Fonts: Fira Sans and Merriweather
+	// Add Google Fonts: Fira Sans and Merriweather 
 
 	wp_enqueue_style ( 'nm_underscores_google_fonts', 'https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,700,700i|Merriweather:400,400i,700,700i' );
 
