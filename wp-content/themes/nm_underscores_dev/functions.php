@@ -105,7 +105,12 @@ add_action( 'widgets_init', 'nm_underscores_dev_widgets_init' );
  * Enqueue scripts and styles.
  */
 function nm_underscores_dev_scripts() {
+
 	wp_enqueue_style( 'nm_underscores_dev-style', get_stylesheet_uri() );
+
+	// Add Google Fonts: Fira Sans and Merriweather
+
+	wp_enqueue_style ( 'nm_underscores_google_fonts', 'https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,700,700i|Merriweather:400,400i,700,700i' );
 
 	wp_enqueue_script( 'nm_underscores_dev-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
