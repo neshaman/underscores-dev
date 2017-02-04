@@ -1,0 +1,11 @@
+@import "partials/normalize";
+@import "partials/variables";
+@import "partials/base";
+@import "partials/mixins";
+
+#content { 
+	background: $blue-gray; 
+	margin: 1em; 
+	padding: 1em; 
+	@include border-radius(15px); 
+}

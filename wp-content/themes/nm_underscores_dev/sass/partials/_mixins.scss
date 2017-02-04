@@ -1,0 +1,10 @@
+@mixin default-text-color($tc){
+	color: $tc;
+}
+
+@mixin border-radius($br) {
+		-webkit-border-radius: $br;
+		-moz-border-radius: $br;
+		-ms-border-radius: $br;
+		border-radius: $br;
+}
